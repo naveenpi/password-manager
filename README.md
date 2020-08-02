@@ -1,5 +1,5 @@
 # password-manager
-crud operations passwords
+CRUD operations passwords
 Client: Angular
 Server: Spring boot
 
