@@ -1,0 +1,31 @@
+<div class="row fluid-container">
+    <div [hidden]="submitted" class="col-xs-12">
+      <form (ngSubmit)="onSubmit()">
+        <div class="column container">
+
+          <div class="row form-group">
+            <label for="url-name">URL</label>
+            <input type="text" id="url-name" class="form-control" required [(ngModel)]="manager.url" name="url">
+          </div>
+
+          <div class="row form-group">
+            <label for="username-name">USERNAME</label>
+            <input type="text" id="username-name" class="form-control" required [(ngModel)]="manager.username" name="username">
+          </div>
+
+          <div class="row form-group">
+            <label for="password-name">PASSWORD</label>
+            <input type="text" id="password-name" class="form-control" required [(ngModel)]="manager.password" name="password">
+          </div>
+
+          <div class="row">
+            <div class="btn-toolbar">
+              <button class="btn btn-success" type="submit" value="save">Add</button>
+            </div>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </div>
+  
