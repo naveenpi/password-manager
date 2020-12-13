@@ -4,10 +4,10 @@ Client: Angular
 Server: Spring boot
 
 # commands 
-Install angular: npm install -g @angular/cli
+Install angular: npm install -g @angular/cli.
 
 # Database
-Download SQL Work bench
+Download SQL Work bench.
 
 # Server 
-Download the Spring tool suite in eclipse IDE
+Download the Spring tool suite in eclipse IDE.
